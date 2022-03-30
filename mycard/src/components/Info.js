@@ -1,4 +1,6 @@
 import React from "react"
+import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function Info() {
     return (
@@ -11,8 +13,8 @@ function Info() {
             </div>
             
             <div>
-                <button>Email</button>
-                <button>Linkedin</button>
+                <button><EmailIcon/>Email</button>
+                <button><LinkedInIcon/>Linkedin</button>
             </div>
         </div>
     )
