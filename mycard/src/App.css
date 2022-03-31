@@ -10,6 +10,7 @@ body {
 
 a {
   color: white;
+  text-decoration: none;
 }
 
 #container {
@@ -32,7 +33,7 @@ a {
   max-height: 22rem;
   object-fit: cover;
   object-position: top;
-  border-radius: 4px;
+  border-radius: 4px 0;
 }
 
 .introduce {
@@ -71,6 +72,8 @@ a {
   border-style: none;
   border-radius: 6px;
   font-style: 16px;
+  background-color: white;
+  color: black;
 }
 
 .email > span {
