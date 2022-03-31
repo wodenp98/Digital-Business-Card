@@ -7,7 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
     return (
-        <div>
+        <div className="footer">
            <TwitterIcon/>
            <FacebookIcon/>
            <InstagramIcon/>

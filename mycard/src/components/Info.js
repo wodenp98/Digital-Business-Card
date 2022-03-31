@@ -6,15 +6,22 @@ function Info() {
     return (
         <div>
             <img className ="image" src="././Rectangle.png" alt="Laura Smith"/>
-            <div>
+            <div className="introduce">
                 <h1>Laura Smith</h1>
                 <p>Frontend developper</p>
-                <p>laurasmith.website</p>
+                <span>laurasmith.website</span>
             </div>
             
-            <div>
-                <button><EmailIcon/>Email</button>
-                <button><LinkedInIcon/>Linkedin</button>
+            <div className="button">
+                <button className="email">
+                    <EmailIcon className="email-icon"/>
+                    <span>Email</span>
+                </button>
+
+                <button className="linkedin">
+                    <LinkedInIcon className="linkedin-icon"/>
+                    <span>LinkedIn</span>
+                </button>
             </div>
         </div>
     )
