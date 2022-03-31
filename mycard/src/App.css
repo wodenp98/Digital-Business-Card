@@ -8,6 +8,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+a {
+  color: white;
+}
+
 #container {
   width: 317px;
   /* max-width: 18rem; */
